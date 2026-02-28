@@ -4,7 +4,7 @@
 
 
 bool checkPrime(uint64_t value) {
-  if (value < 2){
+  if (value < 2) {
     return false;
   }
   for (uint64_t i = 2; i <= value; i++) {
